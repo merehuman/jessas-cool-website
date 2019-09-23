@@ -81,20 +81,20 @@
         });
       };
 
-      var force = d3.layout.force().size([w, h]).nodes(nodes).links(links).gravity(1).linkDistance(50).charge(-3000).linkStrength(function(x) {
+      var force = d3.layout.force().size([w, h]).nodes(nodes).links(links).gravity(1).linkDistance(500).charge(0).linkStrength(function(x) {
         return x.weight * 10
       });
 
 
       force.start();
 
-      var force2 = d3.layout.force().nodes(labelAnchors).links(labelAnchorLinks).gravity(0).linkDistance(0).linkStrength(8).charge(-100).size([w, h]);
+      var force2 = d3.layout.force().nodes(labelAnchors).links(labelAnchorLinks).gravity(0).linkDistance(0).linkStrength(8).charge(0).size([w, h]);
       force2.start();
 
       var link = vis.selectAll("line.link").data(links).enter().append("svg:line").attr("class", "link").style("stroke", "#CCC");
 
       var node = vis.selectAll("g.node").data(force.nodes()).enter().append("svg:g").attr("class", "node");
-      node.append("svg:circle").attr("r", 5).style("fill", "#555").style("stroke", "#FFF").style("stroke-width", 3);
+      node.append("svg:circle").attr("r", 5).style("fill", "#555").style("stroke", "#FFF").style("stroke-width", 5);
       node.call(force.drag);
 
 
@@ -104,7 +104,7 @@
       // It is black!
       var anchorNode = vis.selectAll("g.anchorNode").data(force2.nodes()).enter().append("svg:g").attr("class", "anchorNode");
       // This is a 0 by 0 sized circle around our node.. i'm not sure why it is there??
-      anchorNode.append("svg:ellipse").attr("rx", 0).attr("ry", 0).style("fill", "#F00");
+      anchorNode.append("svg:ellipse").attr("rx", 0).attr("ry", 0);
 
       // This is the link! it's an invisible rectangle
       // around our node!
@@ -121,7 +121,7 @@
         .style("fill", "rgba(255, 255, 255, 100)");
       anchorNode.append("svg:text").text(function(d, i) {
         return i % 2 == 0 ? "" : d.node.label
-      }).style("fill", "#555").style("font-family", "Arial").style("font-size", 24);
+      }).style("fill", "#555").style("font-family", "Arial").style("font-size", 10);
 
       var updateLink = function() {
         this.attr("x1", function(d) {
