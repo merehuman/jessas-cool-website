@@ -104,7 +104,7 @@
       // It is black!
       var anchorNode = vis.selectAll("g.anchorNode").data(force2.nodes()).enter().append("svg:g").attr("class", "anchorNode");
       // This is a 0 by 0 sized circle around our node.. i'm not sure why it is there??
-      anchorNode.append("svg:ellipse").attr("rx", 0).attr("ry", 0);
+      anchorNode.append("svg:ellipse").attr("rx", 0).attr("ry", 0).style("fill", "#555");
 
       // This is the link! it's an invisible rectangle
       // around our node!
