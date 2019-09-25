@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Third Blog Post about thoughts and feelings"
-date:   2019-08-30 16:16:10 -0400
-categories: shit ass
-author: Me!!!
+title:  "blog post about Thoughts and Feelings"
+date:   september 22 2019
+categories: 
+author: jessa
 ---
-I love this!
+
+<p>this is my favorite blog rn besides <a href="https://landscapesfromanother.world/">landscapes from another world</a> </p>

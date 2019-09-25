@@ -1,5 +1,13 @@
+html {
+  font-family: 'Inter UI', Helvetica, sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
-	background-color: pink
+	background-color: white
+	
 }
 .posts-hidden {
 	display: none;

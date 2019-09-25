@@ -1,25 +1,42 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en"
+{
+  font-family: 'Inter UI', Helvetica, sans-serif;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} >
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Your awesome title | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>jessa gillespie</title>
 <meta name="generator" content="Jekyll v3.8.6" />
-<meta property="og:title" content="Your awesome title" />
+<meta property="og:title" content="jessa gillespie" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <link rel="canonical" href="http://localhost:4000/" />
+<link rel="stylesheet" href="font-files/inter-ui.css">
+<link rel="stylesheet" href="css/main.css">
 <meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="Your awesome title" />
+<meta property="og:site_name" content="jessa gillespie" />
 <script type="application/ld+json">
 {"name":"Your awesome title","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebSite","url":"http://localhost:4000/","headline":"Your awesome title","@context":"https://schema.org"}</script>
 <script type="text/javascript" src="https://mbostock.github.com/d3/d3.js?2.6.0"></script>
 <script type="text/javascript" src="https://mbostock.github.com/d3/d3.layout.js?2.6.0"></script>
 <script type="text/javascript" src="https://mbostock.github.com/d3/d3.geom.js?2.6.0"></script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head>
+
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="jessa gillespie" />
+  <!-- // things that don't work yet -->
+<link rel="icon" type="image/png" href="C:\Users\Owner\Desktop\icon.png.png"/>
+
+
+
 <body>
+<img src="images/mindmapweb.jpg" alt="image"></img>
   <ul class="posts-hidden">
   {% for post in site.posts %}
     <li>
@@ -35,10 +52,12 @@
     </li>
   {% endfor %}
 </ul>
+
+
   <script type="text/javascript" charset="utf-8">
       var w = window.innerWidth, h = window.innerHeight;
 
-      var labelDistance = 0;
+      var labelDistance = 50;
 
       var vis = d3.select("body").append("svg:svg").attr("width", w).attr("height", h);
 
@@ -67,7 +86,7 @@
 
       for(var i = 0; i < nodes.length; i++) {
         for(var j = 0; j < i; j++) {
-          if(Math.random() > .95)
+          if(Math.random() >= 0.95)
             links.push({
               source : i,
               target : j,
@@ -77,34 +96,39 @@
         labelAnchorLinks.push({
           source : i * 2,
           target : i * 2 + 1,
-          weight : 1
+          weight : 0
         });
       };
 
-      var force = d3.layout.force().size([w, h]).nodes(nodes).links(links).gravity(1).linkDistance(500).charge(0).linkStrength(function(x) {
-        return x.weight * 10
+      var force = d3.layout.force().size([w, h]).nodes(nodes).links(links).gravity(10).linkDistance(7).charge(0).linkStrength(function(x) {
+        return x.weight * 0
       });
 
 
       force.start();
 
-      var force2 = d3.layout.force().nodes(labelAnchors).links(labelAnchorLinks).gravity(0).linkDistance(0).linkStrength(8).charge(0).size([w, h]);
+      var force2 = d3.layout.force().nodes(labelAnchors).links(labelAnchorLinks).gravity(1).linkDistance(500).linkStrength(10).charge(0).size([w, h]);
       force2.start();
 
       var link = vis.selectAll("line.link").data(links).enter().append("svg:line").attr("class", "link").style("stroke", "#CCC");
 
       var node = vis.selectAll("g.node").data(force.nodes()).enter().append("svg:g").attr("class", "node");
-      node.append("svg:circle").attr("r", 5).style("fill", "#555").style("stroke", "#FFF").style("stroke-width", 10);
+      node.append("rect")  
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("height", 7)
+        .attr("width", 7)
+        .style("fill", "#0000");;
       node.call(force.drag);
 
 
-      var anchorLink = vis.selectAll("line.anchorLink").data(labelAnchorLinks).enter().append("svg:line").attr("class", "anchorLink").style("stroke", "#999");
+      var anchorLink = vis.selectAll("line.anchorLink").data(labelAnchorLinks).enter().append("svg:line").attr("class", "anchorLink").style("stroke", "#000");
 
       // This is our anchor node!
       // It is black!
       var anchorNode = vis.selectAll("g.anchorNode").data(force2.nodes()).enter().append("svg:g").attr("class", "anchorNode");
       // This is a 0 by 0 sized circle around our node.. i'm not sure why it is there??
-      anchorNode.append("svg:ellipse").attr("rx", 10).attr("ry", 10).style("fill", "#555");
+      anchorNode.append("svg:ellipse").attr("rx", 0).attr("ry", 0).style("fill", "#555");
 
       // This is the link! it's an invisible rectangle
       // around our node!
@@ -114,14 +138,15 @@
           return i % 2 == 0 ? "" : d.node.url
         })
         .append("rect")  
-        .attr("x", 20)
-        .attr("y", 20)
-        .attr("height", 100)
-        .attr("width", 200)
-        .style("fill", "rgba(255, 255, 255, 100)");
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("height", 7)
+        .attr("width", 7)
+        .style("fill", "#0000");
       anchorNode.append("svg:text").text(function(d, i) {
         return i % 2 == 0 ? "" : d.node.label
-      }).style("fill", "#555").style("font-family", "Arial").style("font-size", 50);
+      }).style("fill", "#000").style("font-family", "Helvetica").style("font-size", 20);
+        
 
       var updateLink = function() {
         this.attr("x1", function(d) {
@@ -178,6 +203,10 @@
       });
 
     </script>
+<!-- <h1>
+<img src="C:\Users\Owner\Documents\GitHub\jessas-cool-website1\_site\assets\icon.png.png" id="logo">
+</h1> -->
+
 </body>
 
 </html>
