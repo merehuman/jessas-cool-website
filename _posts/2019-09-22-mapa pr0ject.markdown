@@ -1,8 +1,7 @@
 ---
+title: mapa pr0ject devlog
+date: 2019-09-22 00:00:00 Z
 layout: post
-title:  "mapa pr0ject devlog"
-date:   september 22 2019
-categories: 
 author: jessa
 ---
 

@@ -1,10 +1,10 @@
 ---
+title: inter-infrastructure dev
+date: 2019-09-24 00:00:00 Z
 layout: post
-title:  "inter-infrastructure dev"
-date:   september 24 2019
-categories: 
 author: jessa
 ---
+
 this sect of the mindscape is dedicated to a game jessa is currently developing
 <br>
 <br>
