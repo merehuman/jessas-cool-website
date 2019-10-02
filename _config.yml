@@ -10,8 +10,8 @@ collections:
     output: true
 email: jessagillespie@gmail.com
 description: ";)"
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 github_username: merehuman
 markdown: kramdown
 theme: minima
