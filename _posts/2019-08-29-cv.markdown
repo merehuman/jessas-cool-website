@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "a selected overview"
+date:   "september 22 2019"
+categories: 
+author: Me again!!!
+---
+
+<p>
+2019-present <br>
+<i>front-end development/graphic design</i> for <a href= "https://www.stephaniedinkins.com/ntoo.html">stephanie dinkins</a>
+	<br>
+	<br>
+2019-present<br>
+<i>virtual reality development</i> for <a href="https://unmpress.com/books/cave-city-and-eagles-nest/9780826342836">mapa de cuauhtinchan project</a> in collaboration with davíd carrasco, laana carrasco, and stewart bird  
+	<br>
+	<br>
+2018-present<br>
+<i>graphic design</i> for bar laika by e-flux
+	<br>
+	<br>
+2017-present<br>
+<i>virtual reality development</i> for <a href="https://www.bradnecyk.com/">brad necyk</a>
+	<br>
+	<br>
+2017-2019<br>
+<i>game development</i> on <a href="http://www.audiogameslab.ca/">the lost garden</a> with scott smallwood and nico arnaez
+	<br>
+	<br>
+	<br>
+<b>jessa</b> previously was in arts school in canada from 2013-2017 & you can email them for an extensive cv if you wish

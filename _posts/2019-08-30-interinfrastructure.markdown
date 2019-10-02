@@ -5,9 +5,9 @@ date:   september 24 2019
 categories: 
 author: jessa
 ---
-this sect of the mindscape is dedicated to a game i'm currently developing
+this sect of the mindscape is dedicated to a game jessa is currently developing
 <br>
 <br>
 <p>
-<img src="C:\Users\Owner\Desktop\mindmapweb.jpg" alt="mindmap" style="width:128px;height:128px;">
+<img src="/images/mindmapweb.jpg" alt="mindmap" width="1300" height="400" >
 </p>
