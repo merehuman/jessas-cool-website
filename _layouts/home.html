@@ -136,7 +136,7 @@
         });
       };
 
-      var force = d3.layout.force().size([w, h]).nodes(nodes).links(links).gravity(10).linkDistance(7).charge(0).linkStrength(function(x) {
+      var force = d3.layout.force().size([w, h]).nodes(nodes).links(links).gravity(10).linkDistance(5).charge(0).linkStrength(function(x) {
         return x.weight * 0
       });
 
