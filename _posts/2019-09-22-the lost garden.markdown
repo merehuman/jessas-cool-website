@@ -1,10 +1,10 @@
 ---
+title: the lost garden
+date: 2019-09-22 00:00:00 Z
 layout: post
-title:  "the lost garden"
-date:   september 22 2019
-categories: 
 author: jessa
 ---
+
 a game made in collaboration with scott smallwood & nico arnaez. to be released spring 2020!
 <p> 
 	<img src="/images/lostgarden.png" alt="lostgarden1" width="580">
