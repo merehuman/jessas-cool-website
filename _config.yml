@@ -17,3 +17,16 @@ markdown: kramdown
 theme: minima
 plugins:
 - jekyll-feed
+source: src
+destination: dist
+sass:
+  sass_dir: assets/_sass
+js:
+  js_dir: assets/_js
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
