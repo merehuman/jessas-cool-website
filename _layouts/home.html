@@ -38,31 +38,29 @@
 <link rel="stylesheet" href="/assets/main.css">
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="jessa gillespie" />
 <link rel="icon" type="image/png" href="/images/icon.png"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
 
 <style>
   body { background-image: url("/images/icon.png"); 
         background-repeat:no-repeat;
         background-size: 50px;
-        background-position: 1% 1%;
-      }
-</style>
+        background-position: 10% 1%;
+        /*background-color: #fcfff9;*/
+        /*border: 3px dotted#000000;*/
 
+      }
+      h3 {background-position: 10% 1%;
+      }
+
+</style>
 <body>
- <h3>jessa gillespie</h3>
+<h2> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspjessa gillespie</h2>
  <style>
 
     {text-align: center;
     display: inline-block;
  } 
  </style>
-
-<!--  <style>
-  body { background-image: url("/images/mindscape.png"); 
-        background-repeat:no-repeat;
-        background-size: 150px;
-        background-position: 4% 3%;
-      }
-</style> -->
 
 <ul class="posts-hidden">
   {% for post in site.posts %}
@@ -91,7 +89,7 @@
 
       if (w < 600) {
         linkDistance = 200;
-        fontSize = 12;
+        fontSize = 10;
       }
 
 
@@ -146,19 +144,19 @@
       var force2 = d3.layout.force().nodes(labelAnchors).links(labelAnchorLinks).gravity(1).linkDistance(linkDistance).linkStrength(10).charge(0).size([w, h]);
       force2.start();
 
-      var link = vis.selectAll("line.link").data(links).enter().append("svg:line").attr("class", "link").style("stroke", "#CCC");
+      var link = vis.selectAll("line.link").data(links).enter().append("svg:line").attr("class", "link").style("stroke", "#CCC")
 
       var node = vis.selectAll("g.node").data(force.nodes()).enter().append("svg:g").attr("class", "node");
       node.append("rect")  
-        .attr("x", 0)
+        .attr("x", -20)
         .attr("y", -50)
-        .attr("height", 7)
+        .attr("height", 10)
         .attr("width", 7)
         .style("fill", "#0000");;
       node.call(force.drag);
 
 
-      var anchorLink = vis.selectAll("line.anchorLink").data(labelAnchorLinks).enter().append("svg:line").attr("class", "anchorLink").style("stroke", "#000");
+      var anchorLink = vis.selectAll("line.anchorLink").data(labelAnchorLinks).enter().append("svg:line").attr("class", "anchorLink").style("stroke", "#FFFFFF");
 
       // This is our anchor node!
       // It is black!
@@ -181,7 +179,7 @@
         .style("fill", "#0000");
       anchorNode.append("svg:text").text(function(d, i) {
         return i % 2 == 0 ? "" : d.node.label
-      }).style("fill", "#000").style("font-family", "Helvetica").style("font-size", fontSize);
+      }).style("fill", "#000").style("font-family", "Roboto Mono").style("font-size", fontSize);
         
 
       var updateLink = function() {
