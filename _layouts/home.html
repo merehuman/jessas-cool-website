@@ -80,12 +80,12 @@
 <script type="text/javascript" charset="utf-8">
       var w = window.innerWidth, h = window.innerHeight;
 
-      var labelDistance = 50;
+      var labelDistance = 10;
 
-      var linkDistance = 300;
+      var linkDistance = 350;
       var fontSize = 20;
 
-      if (w < 800) {
+      if (w < 700) {
         linkDistance = 150;
         fontSize = 10;
       }
@@ -142,19 +142,19 @@
       var force2 = d3.layout.force().nodes(labelAnchors).links(labelAnchorLinks).gravity(1).linkDistance(linkDistance).linkStrength(10).charge(0).size([w, h]);
       force2.start();
 
-      var link = vis.selectAll("line.link").data(links).enter().append("svg:line").attr("class", "link").style("stroke", "#CCC")
+      var link = vis.selectAll("line.link").data(links).enter().append("svg:line").attr("class", "link").style("stroke", "black")
 
       var node = vis.selectAll("g.node").data(force.nodes()).enter().append("svg:g").attr("class", "node");
       node.append("rect")  
         .attr("x", 0)
         .attr("y", 0)
-        .attr("height", 7)
-        .attr("width", 7)
-        .style("fill", "#0000");;
+        .attr("height", 5)
+        .attr("width", 5)
+        .style("fill", "#000000");;
       node.call(force.drag);
 
 
-      var anchorLink = vis.selectAll("line.anchorLink").data(labelAnchorLinks).enter().append("svg:line").attr("class", "anchorLink").style("stroke", "#FFFFFF");
+      var anchorLink = vis.selectAll("line.anchorLink").data(labelAnchorLinks).enter().append("svg:line").attr("class", "anchorLink").style("stroke", "black").style("stroke-width", "2").style("stroke-dasharray", "2,2");
 
       // This is our anchor node!
       // It is black!
@@ -172,8 +172,8 @@
         .append("rect")  
         .attr("x", 0)
         .attr("y", 0)
-        .attr("height", 8)
-        .attr("width", 8)
+        .attr("height", 5)
+        .attr("width", 5)
         .style("fill", "#000000");
       anchorNode.append("svg:text").text(function(d, i) {
         return i % 2 == 0 ? "" : d.node.label
