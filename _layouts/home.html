@@ -85,8 +85,8 @@
       var linkDistance = 500;
       var fontSize = 20;
 
-      if (w < 600) {
-        linkDistance = 200;
+      if (w < 800) {
+        linkDistance = 150;
         fontSize = 10;
       }
 
@@ -146,9 +146,9 @@
 
       var node = vis.selectAll("g.node").data(force.nodes()).enter().append("svg:g").attr("class", "node");
       node.append("rect")  
-        .attr("x", -20)
-        .attr("y", -50)
-        .attr("height", 10)
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("height", 7)
         .attr("width", 7)
         .style("fill", "#0000");;
       node.call(force.drag);
@@ -170,11 +170,11 @@
           return i % 2 == 0 ? "" : d.node.url
         })
         .append("rect")  
-        .attr("x", 50)
-        .attr("y", -50)
-        .attr("height", 100)
-        .attr("width", 200)
-        .style("fill", "#0000");
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("height", 8)
+        .attr("width", 8)
+        .style("fill", "#000000");
       anchorNode.append("svg:text").text(function(d, i) {
         return i % 2 == 0 ? "" : d.node.label
       }).style("fill", "#000").style("font-family", "Roboto Mono").style("font-size", fontSize);
