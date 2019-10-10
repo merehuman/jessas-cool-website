@@ -44,7 +44,7 @@
   body { background-image: url("/images/icon.png"); 
         background-repeat:no-repeat;
         background-size: 50px;
-        background-position: center;
+        background-position: 51% 56%;
         background-attachment: fixed;
 
         /*background-color: #fcfff9;*/
@@ -54,7 +54,9 @@
 
 </style>
 <body>
-<h2> <!-- &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -->jessa gillespie</h2>
+  <div id="background">
+    <p id="bg-text">jessa gillespie</p>
+  </div>
  <style>
 
     {text-align: center;
@@ -87,7 +89,7 @@
       var linkDistance = 350;
       var fontSize = 20;
 
-      if (h < 900) {
+      if (w < 800) {
         linkDistance = 150;
         fontSize = 10;
       }
