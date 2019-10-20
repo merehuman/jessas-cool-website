@@ -23,15 +23,15 @@
   <meta name="generator" content="Jekyll v3.8.6" />
   <meta property="og:title" content="jessa gillespie" />
   <meta property="og:locale" content="en_US" />
-  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-  <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+  <meta name="description" content="jessa gillespie"/>
+  <meta property="og:description" content="jessa gillespie"/>
 <link rel="canonical" href="http://localhost:4000/" />
 <link rel="stylesheet" href="font-files/inter-ui.css">
 <link rel="stylesheet" href="css/main.css">
   <meta property="og:url" content="http://localhost:4000/" />
   <meta property="og:site_name" content="jessa gillespie" />
 <script type="application/ld+json">
-{"name":"jessa gillespie","description":";)","@type":"WebSite","url":"http://localhost:4000/","headline":"jessa gillespie","@context":"https://schema.org"}</script>
+{"name":"jessa gillespie","description":";)","@type":"WebSite","url":"merehuman.live","headline":"jessa gillespie","@context":"https://schema.org"}</script>
 <script type="text/javascript" src="https://mbostock.github.com/d3/d3.js?2.6.0"></script>
 <script type="text/javascript" src="https://mbostock.github.com/d3/d3.layout.js?2.6.0"></script>
 <script type="text/javascript" src="https://mbostock.github.com/d3/d3.geom.js?2.6.0"></script>
@@ -43,8 +43,8 @@
 <style>
   body { background-image: url("/images/icon.png"); 
         background-repeat:no-repeat;
-        background-size: 50px;
-        background-position: 51% 56%;
+        background-size: 20px;
+        background-position: 1% 1%;
         background-attachment: fixed;
 
         /*background-color: #fcfff9;*/
@@ -53,8 +53,10 @@
     
 
 </style>
-<body>
+<!-- <body>
   <div id="background">
+    <br>
+    <br
     <p id="bg-text">jessa gillespie</p>
   </div>
  <style>
@@ -63,7 +65,7 @@
     display: inline-block;
  } 
  </style>
-
+ -->
 <ul class="posts-hidden">
   {% for post in site.posts %}
     <li>
@@ -151,14 +153,14 @@
       var node = vis.selectAll("g.node").data(force.nodes()).enter().append("svg:g").attr("class", "node");
       node.append("rect")  
         .attr("x", 0)
-        .attr("y", 0)
-        .attr("height", 5)
-        .attr("width", 5)
-        .style("fill", "#000000");;
+        .attr("y", -15)
+        .attr("height", 30)
+        .attr("width", 30)
+        .style("fill", "#FFFFFF");;
       node.call(force.drag);
 
 
-      var anchorLink = vis.selectAll("line.anchorLink").data(labelAnchorLinks).enter().append("svg:line").attr("class", "anchorLink").style("stroke", "black").style("stroke-width", "2").style("stroke-dasharray", "2,2");
+      var anchorLink = vis.selectAll("line.anchorLink").data(labelAnchorLinks).enter().append("svg:line").attr("class", "anchorLink").style("stroke", "black").style("stroke-width", "1").style("stroke-dasharray", "1,1");
 
       // This is our anchor node!
       // It is black!
@@ -175,10 +177,10 @@
         })
         .append("rect")  
         .attr("x", 0)
-        .attr("y", 0)
-        .attr("height", 5)
-        .attr("width", 5)
-        .style("fill", "#000000");
+        .attr("y", -15)
+        .attr("height", 30)
+        .attr("width", 30)
+        .style("fill", "#FFFFFF00");
       anchorNode.append("svg:text").text(function(d, i) {
         return i % 2 == 0 ? "" : d.node.label
       }).style("fill", "#000").style("font-family", "Roboto Mono").style("font-size", fontSize);
