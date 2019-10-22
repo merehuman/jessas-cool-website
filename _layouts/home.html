@@ -70,13 +70,13 @@
 <script type="text/javascript" charset="utf-8">
       var w = window.innerWidth, h = window.innerHeight;
 
-      var labelDistance = 10;
+      var labelDistance = -50;
 
       var linkDistance = 350;
       var fontSize = 20;
 
       if (w < 700) {
-        linkDistance = 200;
+        linkDistance = 180;
         fontSize = 10;
       }
 
@@ -140,7 +140,7 @@
         .attr("y", -15)
         .attr("height", 30)
         .attr("width", 30)
-        .style("fill", "#FFFFFF");;
+        .style("fill", "#FFFFFF00");;
       node.call(force.drag);
 
 
