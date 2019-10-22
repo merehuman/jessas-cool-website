@@ -20,7 +20,7 @@ but i've been in big time research mode lately trying to figure out a successful
 <br><br>
 ★i've also been making good progress on this virtual reality project, mapavr. i won't talk much about it here because i have a link to our devlog on my home page where we're posting regular updates. one exciting thing to note though is that we're potentially partnering up with this company called pison to make the virtual reality experience accessible to people with a limited range of mobility!
 <br><br>
-★personally, i've been in big time gamedev mode. i'm sketching out a game rn in this application called <a href="https://twinery.org/">twine</a>, which is mainly used to make text based games. i use it specifically to tease out narratives, scripts, anticipate player interactions/decision-making. it works like a mindmap sort of, which is a format that i'm obsessed with anyways so i can't blast this app enough!<br>
+★personally, i've been in big time gamedev mode. i'm sketching out a game rn in this application called <a href="https://twinery.org/">twine</a>, which is mainly used to make text based games. i use it specifically to tease out narratives, scripts, anticipate player interactions/decision-making. it works like a mindmap sort of, which is a format that i'm obsessed with anyways i can't blast this app enough!<br>
 <p>
 <img src="/images/gamemap.png" alt="gamemap" height= "400"><img src="/images/twine.png" alt="twine" height= "400">
 </p>
