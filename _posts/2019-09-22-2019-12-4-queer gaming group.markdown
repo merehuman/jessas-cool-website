@@ -22,8 +22,8 @@ recently, i have started collaboratively organizing a queer gaming group in new 
 ★serafin alvarez's work is adjacent to games; this is a nice <a href="https://serafinalvarez.itch.io/maze-walkthrough">maze walkthrough</a> by him on itch.
 <br><br>
 ★robert yang is an extremely prolific and <a href="https://debacle.us/">seductive</a> game developer who teaches at the nyu game center rn. 
-<br>
-<img src="/images/yang.png" alt="yang" height= "400">
+<br><br>
+<img src="/images/yang.png" alt="yang" height= "200">
 <br><br>
 ☆this list will be updated regularly☆
  </p>
