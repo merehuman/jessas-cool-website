@@ -15,15 +15,15 @@ recently, i have started collaboratively organizing a queer gaming group in new 
 <br><br>
 ★one of my fav writers & gamemakers, <a href="http://slimedaughter.com/">porpentine heartscape</a> is a must on this list. she queers game making in every way possible!
 <br><br>
-★<a href="http://abtec.org/#about">abtec</a> -aboriginal territories in cyberspace- is collaboratively involved in the creation of games & virtual worlds, and have so many beautiful projects on the go!
+★<a href="http://abtec.org/#about">abtec</a> -aboriginal territories in cyberspace- is collaboratively involved in the creation of games & virtual worlds, and have so many beautiful projects on the go.
 <br><br>
-★<a href="http://www.gamesforchange.org/game/dys4ia/">dys4ia</a> made by anna antropy about the experiences of being transgender!
+★<a href="http://www.gamesforchange.org/game/dys4ia/">dys4ia</a> made by anna antropy about the experiences of being transgender.
 <br><br>
 ★serafin alvarez's work is adjacent to games; this is a nice <a href="https://serafinalvarez.itch.io/maze-walkthrough">maze walkthrough</a> by him on itch.
 <br><br>
 ★robert yang is an extremely prolific and <a href="https://debacle.us/">seductive</a> game developer who teaches at the nyu game center rn. 
 <br>
-<img src="images/yang.png" alt="yang" height= "400">
+<img src="/images/yang.png" alt="yang" height= "400">
 <br><br>
 ☆this list will be updated regularly☆
  </p>
