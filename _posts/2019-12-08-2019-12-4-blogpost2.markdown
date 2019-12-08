@@ -1,8 +1,6 @@
 ---
-title: !blog!post!2!
-date: 2019-09-22 00:00:00 Z
-layout: post
-author: jessa
+title: 2019 12 4 Blogpost2
+date: 2019-12-08 21:55:28.133000000 Z
 ---
 
 <body>
