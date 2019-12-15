@@ -7,6 +7,7 @@ author: jessa
 
 <body>
 	<p>
+<img src="/images/presseries2.png" alt="presseries2" width="800" ><br>
 <img src="/images/finalpres.png" alt="presseries" width="800" ><br>
 ★at it's most rudimentary, this presentation series is about sharing your passions with those you share space with. when stewart (<a href="http://stewart-bird.com/">bird</a>) & i were first fleshing out what this would be, our initial phrasing was to create a structure for our friends to just go off about what they're into. <br>
 ★this, for me at least, has evolved into something more complex. within the context of societal disarray, what i come back to again & again, is the need for an embedded collective self-interest. sharing with each other, and learning from each other feels like a stepping stone in this. it's a process of care. <br>
