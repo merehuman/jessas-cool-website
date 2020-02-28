@@ -7,6 +7,6 @@ author: jessa
 
 <body>
 <p>
-<img src="/images/myheartmindmap.png" alt="mindmap" width="1400">
+<img src="/images/myheartmindmap.png" alt="mindmap">
 </p>
 </body>
