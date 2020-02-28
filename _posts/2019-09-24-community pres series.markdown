@@ -14,6 +14,6 @@ author: jessa
 ★it feels necessary to process life together, and to form an entangled & complex community for ourselves that, at it's foundation, is invested in communal flourishing. we all share this messy world, and our futures are bound together. <br>
 ★the space that we're hosting the series at, the ear, has historically hosted many fluxus artists & their happenings. happenings were participatory, performative events (mainly associated with john cage, who was a regular patron/performer at the ear), that explored negative space. the organizing of negative space is just as agential as the organization of bodies & objects. we get to make decisions about who & what we share space with. we get to decide how close our bodies are to each other. we get to construct our negative spaces.
 <br><br>
- ★the next community presentation series is on december 17, 2019 & is being organized by vijay masharani★
+ ★the next community presentation series is on march 20, 2019 & is being organized by coco klockner★
 </p>
 </body>

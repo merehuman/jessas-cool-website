@@ -6,12 +6,7 @@ author: jessa
 ---
 
 <body>
-	<p>
-this sect of the mindscape is dedicated to the game that i'm developing, my heart moves faster than my brain. <br><br>
-☆my mindmap☆<br>
-</p>
-<br>
 <p>
-<img src="/images/mindmapweb.jpg" alt="mindmap" width="1000">
+<img src="/images/myheartmindmap.png" alt="mindmap" width="1400">
 </p>
 </body>
