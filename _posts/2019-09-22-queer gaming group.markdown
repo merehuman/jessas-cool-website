@@ -11,6 +11,8 @@ recently, i have started collaboratively organizing a queer gaming group in new 
 <br><br>
 ★an amazing reference has been the <a href="https://lgbtqgamearchive.com">lgbt game archive!</a> from the schwules museum in berlin. they are doing amazing (gay) archiving work.
 <br><br>
+★<a href="https://www.freegameplanet.com/digital-a-love-story-full-game-download/">digital: a love story</a>
+<br><br>
 ★<a href="http://neveralonegame.com/">never alone</a> is a game i've been wanting to play that was made by and about the Iñupiat people, an alaskan indigenous community. this game has recieved very disparate reviews & has had a lot of critical engagement from the games community and the academic community. <a href="https://www.cornell.edu/video/jodi-a-byrd-video-games-indigeneity-settler-colonialism">jodi byrd discusses here</a>. 
 <br><br>
 ★one of my fav writers & gamemakers, <a href="http://slimedaughter.com/">porpentine heartscape</a> is a must on this list. she queers game making in every way possible!
@@ -25,5 +27,29 @@ recently, i have started collaboratively organizing a queer gaming group in new 
 <br><br>
 <img src="/images/yang.png" alt="yang" height= "200">
 <br><br>
-☆this list will be updated regularly☆
+★have started an itch collection as well :)))
+<a href="https://lizectricity.itch.io/">
+<a href="https://colestia.itch.io/">
+<a href="https://lilithzone.itch.io/">
+<a href="https://porpentine.itch.io/">
+<a href="https://princessaxolotl.itch.io/">
+<a href="https://w.itch.io/">
+<br><br>
+☆other cool things xo s/o to theo&other pals for sharing these☆
+	<br>
+<a href="https://www.molleindustria.org/blog/gaming-under-socialism/?fbclid=IwAR2dpC9a1vSOiPkb-8fwTUNA51rV8OeqKJgeF7yD3GOgNvMBmG4mPtHNHmY">
+	<br><br>
+<a href="https://www.youtube.com/watch?v=EM4S_dD2-Q8&fbclid=IwAR2eXtJKeSrzg_XcolfRVO67AYGYh6VuqdZjcR9mn0EudApqy3U4EIvK2D4">
+	<br><br>
+<a href="http://rangedtouch.com/game-studies-study-buddies/?fbclid=IwAR3cvb-ZtuIcjH8_xPEcWCOKTsLz0QC7MP98ODy0yArNXnDBWB6eXSQzg4I">
+	<br><br>
+<a href="https://www.humblebundle.com/subscription?refc=GSwz4A&fbclid=IwAR1D_g92LxwFqTTmEloQaybW1p3xu4m4H41ShXxtsZrh8Qkw-pbAoXDWQEs">
+	<br><br>
+<a href="https://ifdb.tads.org/viewgame?id=032krqe6bjn5au78">
+	<br>
+	<br>
+<a href="https://arcanekids.com/">
+	<br>
+	<br>
+<a href="https://www.increpare.com/?fbclid=IwAR18GR9DqADMC5E448EAbQ3kjreXnUuZzt1JihovjClCC4W30L3DL2mSG8s">
  </p>
