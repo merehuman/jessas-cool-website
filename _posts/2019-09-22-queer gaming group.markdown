@@ -28,28 +28,23 @@ recently, i have started collaboratively organizing a queer gaming group in new 
 <img src="/images/yang.png" alt="yang" height= "200">
 <br><br>
 ★have started an itch collection as well :)))
-<a href="https://lizectricity.itch.io/">
-<a href="https://colestia.itch.io/">
-<a href="https://lilithzone.itch.io/">
-<a href="https://porpentine.itch.io/">
-<a href="https://princessaxolotl.itch.io/">
-<a href="https://w.itch.io/">
+<a href="https://lizectricity.itch.io/">lizectricity</a>
+<a href="https://colestia.itch.io/">colestia</a>
+<a href="https://lilithzone.itch.io/">lilithzone</a>
+<a href="https://porpentine.itch.io/">porpentine</a>
+<a href="https://princessaxolotl.itch.io/">princessaxolotl</a>
+<a href="https://w.itch.io/">w.itch</a>
 <br><br>
 ☆other cool things xo s/o to theo&other pals for sharing these☆
-	<br>
-<a href="https://www.molleindustria.org/blog/gaming-under-socialism/?fbclid=IwAR2dpC9a1vSOiPkb-8fwTUNA51rV8OeqKJgeF7yD3GOgNvMBmG4mPtHNHmY">
+<br>
+<a href="https://www.molleindustria.org/blog/gaming-under-socialism/?fbclid=IwAR2dpC9a1vSOiPkb-8fwTUNA51rV8OeqKJgeF7yD3GOgNvMBmG4mPtHNHmY">gaming under socialism</a>
 	<br><br>
-<a href="https://www.youtube.com/watch?v=EM4S_dD2-Q8&fbclid=IwAR2eXtJKeSrzg_XcolfRVO67AYGYh6VuqdZjcR9mn0EudApqy3U4EIvK2D4">
+<a href="https://www.youtube.com/watch?v=EM4S_dD2-Q8&fbclid=IwAR2eXtJKeSrzg_XcolfRVO67AYGYh6VuqdZjcR9mn0EudApqy3U4EIvK2D4">austin walker:Making & Playing Games In A Time of Political Struggle</a>
 	<br><br>
-<a href="http://rangedtouch.com/game-studies-study-buddies/?fbclid=IwAR3cvb-ZtuIcjH8_xPEcWCOKTsLz0QC7MP98ODy0yArNXnDBWB6eXSQzg4I">
+<a href="http://rangedtouch.com/game-studies-study-buddies/?fbclid=IwAR3cvb-ZtuIcjH8_xPEcWCOKTsLz0QC7MP98ODy0yArNXnDBWB6eXSQzg4I">game studies study buddies</a>
 	<br><br>
-<a href="https://www.humblebundle.com/subscription?refc=GSwz4A&fbclid=IwAR1D_g92LxwFqTTmEloQaybW1p3xu4m4H41ShXxtsZrh8Qkw-pbAoXDWQEs">
-	<br><br>
-<a href="https://ifdb.tads.org/viewgame?id=032krqe6bjn5au78">
+<a href="https://ifdb.tads.org/viewgame?id=032krqe6bjn5au78">interactive fiction database</a>
 	<br>
 	<br>
-<a href="https://arcanekids.com/">
-	<br>
-	<br>
-<a href="https://www.increpare.com/?fbclid=IwAR18GR9DqADMC5E448EAbQ3kjreXnUuZzt1JihovjClCC4W30L3DL2mSG8s">
+<a href="https://arcanekids.com/">arcane kids games</a>
  </p>
