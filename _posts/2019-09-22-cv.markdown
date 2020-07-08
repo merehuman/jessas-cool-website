@@ -7,7 +7,7 @@ author: Me again!!!
 
 <p>
 2019-present <br>
-<i>front-end development/graphic design</i> for <a href= "https://www.stephaniedinkins.com/ntoo.html">stephanie dinkins</a>
+<i>graphics & interactive programming</i> for <a href= "https://www.stephaniedinkins.com/ntoo.html">stephanie dinkins</a>
 	<br>
 	<br>
 2019-present<br>

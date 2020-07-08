@@ -7,6 +7,7 @@ author: jessa
 
 <body>
 	<p>
+<img src="/images/presseries3.png" alt="presseries3" width="800" ><br>
 <img src="/images/presseries2.png" alt="presseries2" width="800" ><br>
 <img src="/images/finalpres.png" alt="presseries" width="800" ><br>
 ★at it's most rudimentary, this presentation series is about sharing your passions with those you share space with. when stewart (<a href="http://stewart-bird.com/">bird</a>) & i were first fleshing out what this would be, our initial phrasing was to create a structure for our friends to just go off about what they're into. <br>
@@ -14,6 +15,6 @@ author: jessa
 ★it feels necessary to process life together, and to form an entangled & complex community for ourselves that, at it's foundation, is invested in communal flourishing. we all share this messy world, and our futures are bound together. <br>
 ★the space that we're hosting the series at, the ear, has historically hosted many fluxus artists & their happenings. happenings were participatory, performative events (mainly associated with john cage, who was a regular patron/performer at the ear), that explored negative space. the organizing of negative space is just as agential as the organization of bodies & objects. we get to make decisions about who & what we share space with. we get to decide how close our bodies are to each other. we get to construct our negative spaces.
 <br><br>
- ★the next community presentation series is on march 20, 2020 & is being organized by coco klockner★
+ ★the next <a href="https://merehuman.github.io/presentationseries/">community presentation series</a> was supposed to be on march 20, 2020 & is being organized by coco klockner to happen at a later date★
 </p>
 </body>
