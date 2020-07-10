@@ -34,7 +34,6 @@ an <a href="https://everestpipkin.github.io/image-scrubber/">image scrubber</a> 
 & if you're interested in electoral politics, check on <a href="https://docs.google.com/spreadsheets/d/1bu1wXgR8WKxhiF46W_VcVjk86myBC47S6bIfD8bwqic/edit#gid=491842586">who takes that cop$$ in nyc</a> before u vote for them. 
 <br><br>
 
-<br><br><br>
 ☆thanks for coming xo jessa☆
 </p>
 </body>
