@@ -14,22 +14,3 @@ body {
 .border {
 	border: 2px dotted #000000;
 }
-
-.navbar {
-  overflow: hidden;
-  background-color: #f0f0f0; 
-}
-
-.navbar a {
-  font-size: 14px;
-  font-family: 'Roboto', italic, sans-serif; 
-  color: black;
-  text-align: center;
-  padding: 14px 14px;
-  text-decoration: none; 
-}
-
-/* background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  text-decoration: underline;
-}
