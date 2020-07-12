@@ -1,0 +1,229 @@
+<!-- ────(♥)(♥)(♥)────(♥)(♥)(♥) __ ɪƒ ƴσυ'ʀє αʟσηє,
+      ──(♥)██████(♥)(♥)██████(♥) ɪ'ʟʟ ɓє ƴσυʀ ѕɧα∂σѡ.
+      ─(♥)████████(♥)████████(♥) ɪƒ ƴσυ ѡαηт тσ cʀƴ,
+      ─(♥)██████████████████(♥) ɪ'ʟʟ ɓє ƴσυʀ ѕɧσυʟ∂єʀ.
+      ──(♥)████████████████(♥) ɪƒ ƴσυ ѡαηт α ɧυɢ,
+      ────(♥)████████████(♥) __ ɪ'ʟʟ ɓє ƴσυʀ ρɪʟʟσѡ.
+      ──────(♥)████████(♥) ɪƒ ƴσυ ηєє∂ тσ ɓє ɧαρρƴ,
+      ────────(♥)████(♥) __ ɪ'ʟʟ ɓє ƴσυʀ ѕɱɪʟє.
+      ─────────(♥)██(♥) ɓυт αηƴтɪɱє ƴσυ ηєє∂ α ƒʀɪєη∂,
+      ───────────(♥) __ ɪ'ʟʟ ʝυѕт ɓє ɱє, jessa gillespie -->
+
+<!-- big thnx to sean scanlan & jacob truax for aiding me in the development of this site!mwah -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>jessa gillespie</title>
+  <meta name="generator" content="Jekyll v3.8.6" />
+  <meta property="og:title" content="jessa gillespie" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="description" content="jessa gillespie"/>
+  <meta property="og:description" content="jessa gillespie"/>
+<link rel="canonical" href="http://localhost:4000/" />
+<link rel="stylesheet" href="font-files/inter-ui.css">
+<link rel="stylesheet" href="css/main.css">
+  <meta property="og:url" content="http://localhost:4000/" />
+  <meta property="og:site_name" content="jessa gillespie" />
+<script type="application/ld+json">
+{"name":"jessa gillespie","description":";)","@type":"WebSite","url":"merehuman.live","headline":"jessa gillespie","@context":"https://schema.org"}</script>
+<script type="text/javascript" src="https://mbostock.github.com/d3/d3.js?2.6.0"></script>
+<script type="text/javascript" src="https://mbostock.github.com/d3/d3.layout.js?2.6.0"></script>
+<script type="text/javascript" src="https://mbostock.github.com/d3/d3.geom.js?2.6.0"></script>
+<link rel="stylesheet" href="/assets/main.css">
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="jessa gillespie" />
+<link rel="icon" type="image/png" href="/images/icon.png"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+<style>
+  body { background-image: url("/images/websitebackground.png"); 
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-color: #000000;
+</style>
+
+<ul class="posts-hidden">
+  {% for post in site.posts %}
+    <li>
+      <div class="post-info">
+        <div class="post-url">{{ post.url }}</div>
+        <div class="post-title">{{ post.title }}</div>
+        <ul class="post-categories">
+          {% for category in post.categories %}
+            <li class="category">{{category}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+
+<script type="text/javascript" charset="utf-8">
+      var w = window.innerWidth, h = window.innerHeight;
+
+      var labelDistance = -50;
+
+      var linkDistance = 350;
+      var fontSize = 20;
+
+      if (w < 700) {
+        linkDistance = 180;
+        fontSize = 10;
+      }
+
+
+      var vis = d3.select("body").append("svg:svg").attr("width", w).attr("height", h);
+
+      var nodes = [];
+      var labelAnchors = [];
+      var labelAnchorLinks = [];
+      var links = [];
+
+      var myPosts = [].slice.call(document.querySelectorAll('.post-info'));
+
+      for (let i = 0; i < myPosts.length; i++) {
+        console.log(myPosts[i].querySelector('.post-title').innerText);
+        var node = {
+          label : myPosts[i].querySelector('.post-title').innerText,
+          url: myPosts[i].querySelector('.post-url').innerText,
+          categories: [].slice.call(myPosts[i].querySelectorAll('.category'))
+        };
+        nodes.push(node);
+        labelAnchors.push({
+          node : node
+        });
+        labelAnchors.push({
+          node : node
+        });
+      }
+
+      for(var i = 0; i < nodes.length; i++) {
+        for(var j = 0; j < i; j++) {
+          if(Math.random() >= 0.95)
+            links.push({
+              source : i,
+              target : j,
+              weight : Math.random()
+            });
+        }
+        labelAnchorLinks.push({
+          source : i * 2,
+          target : i * 2 + 1,
+          weight : 0
+        });
+      };
+
+      var force = d3.layout.force().size([w, h]).nodes(nodes).links(links).gravity(10).linkDistance(4).charge(0).linkStrength(function(x) {
+        return x.weight * 0
+      });
+
+
+      force.start();
+
+      var force2 = d3.layout.force().nodes(labelAnchors).links(labelAnchorLinks).gravity(1).linkDistance(linkDistance).linkStrength(10).charge(0).size([w, h]);
+      force2.start();
+
+      var link = vis.selectAll("line.link").data(links).enter().append("svg:line").attr("class", "link").style("stroke", "black")
+
+      var node = vis.selectAll("g.node").data(force.nodes()).enter().append("svg:g").attr("class", "node");
+      node.append("rect")  
+        .attr("x", 0)
+        .attr("y", -15)
+        .attr("height", 30)
+        .attr("width", 30)
+        .style("fill", "transparent");;
+      node.call(force.drag);
+
+
+      var anchorLink = vis.selectAll("line.anchorLink").data(labelAnchorLinks).enter().append("svg:line").attr("class", "anchorLink").style("stroke", "#959595").style("stroke-width", "1").style("stroke-dasharray", "1,1");
+
+      // This is our anchor node!
+      // It is black!
+      var anchorNode = vis.selectAll("g.anchorNode").data(force2.nodes()).enter().append("svg:g").attr("class", "anchorNode");
+      // This is a 0 by 0 sized circle around our node.. i'm not sure why it is there??
+      anchorNode.append("svg:ellipse").attr("rx", 0).attr("ry", 0).style("fill", "#555");
+
+      // This is the link! it's an invisible rectangle
+      // around our node!
+      anchorNode.append("a")
+        .attr("xlink:href", function(d, i) {
+          console.log(d.node.categories);
+          return i % 2 == 0 ? "" : d.node.url
+        })
+        .append("rect")  
+        .attr("x", 0)
+        .attr("y", -20)
+        .attr("height", 35)
+        .attr("width", 90)
+        .style("fill", "transparent");
+      anchorNode.append("svg:text").text(function(d, i) {
+        return i % 2 == 0 ? "" : d.node.label
+      }).style("fill", "black").style("font-family", "Roboto Mono").style("font-size", fontSize);
+        
+
+      var updateLink = function() {
+        this.attr("x1", function(d) {
+          return d.source.x;
+        }).attr("y1", function(d) {
+          return d.source.y;
+        }).attr("x2", function(d) {
+          return d.target.x;
+        }).attr("y2", function(d) {
+          return d.target.y;
+        });
+
+      }
+
+      var updateNode = function() {
+        this.attr("transform", function(d) {
+          return "translate(" + d.x + "," + d.y + ")";
+        });
+
+      }
+
+
+      force.on("tick", function() {
+
+        force2.start();
+
+        node.call(updateNode);
+
+        anchorNode.each(function(d, i) {
+          if(i % 2 == 0) {
+            d.x = d.node.x;
+            d.y = d.node.y;
+          } else {
+            var b = this.childNodes[1].getBBox();
+
+            var diffX = d.x - d.node.x;
+            var diffY = d.y - d.node.y;
+
+            var dist = Math.sqrt(diffX * diffX + diffY * diffY);
+
+            var shiftX = b.width * (diffX - dist) / (dist * 2);
+            shiftX = Math.max(-b.width, Math.min(0, shiftX));
+            var shiftY = 5;
+            this.childNodes[1].setAttribute("transform", "translate(" + shiftX + "," + shiftY + ")");
+          }
+        });
+
+
+        anchorNode.call(updateNode);
+
+        link.call(updateLink);
+        anchorLink.call(updateLink);
+
+      });
+
+    </script>
+</body>
+</html>
