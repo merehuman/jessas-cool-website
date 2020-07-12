@@ -1,6 +1,8 @@
 ---
 title: state of the disunion
 date: 2020-07-08 00:00:00 Z
+categories:
+- jessas-cool-website
 layout: post
 author: jessa
 ---
