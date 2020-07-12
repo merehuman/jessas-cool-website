@@ -1,0 +1,19 @@
+---
+title: jessagillespie
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: jessagillespie@gmail.com
+description: ";)"
+baseurl: 
+url: 
+github_username: merehuman
+markdown: kramdown
+theme: minima
+plugins:
+- jekyll-feed
