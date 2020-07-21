@@ -1,5 +1,62 @@
 ---
-title: games jessa loves
+title: games jessa loves 
+────────────█████████
+──────────███║║║║║║║███
+─────────█║║║║║║║║║║║║║█
+────────█║║║║███████║║║║█
+───────█║║║║██─────██║║║║█
+──────█║║║║██───────██║║║║█
+─────█║║║║██─────────██║║║║█
+─────█║║║██───────────██║║║█
+─────█║║║█─────────────█║║║█
+─────█║║║█─────────────█║║║█
+─────█║║║█─────────────█║║║█
+─────█║║║█─────────────█║║║█
+────███████───────────███████
+───██║║║║║║██────────██║║║║║██
+──██║║║║║║║║██──────██║║║║║║║██
+─██║║║║║║║║║║██───██║║║║║║║║║║██
+██║║║║║║║║║║║║█████║║║║║║║║║║║║██
+█║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║║█
+█║║║║║║║║║║║║║█████║║║║║║║║║║║║║█
+█║║║║║║║║║║║║█░░░░░█║║║║║║║║║║║║█
+█║║║║║║║║║║║║█░░░░░█║║║║║║║║║║║║█
+█║║║║║║║║║║║║█░░░░░█║║║║║║║║║║║║█
+██║║║║║║║║║║║█░░░░░█║║║║║║║║║║║██
+██║║║║║║║║║║║║█░░░█║║║║║║║║║║║║██
+─██║║║║║║║║║║║█░░░█║║║║║║║║║║║██
+──██║║║║║║║║║║█░░░█║║║║║║║║║║██
+───██║║║║║║║║║█░░░█║║║║║║║║║██
+────██║║║║║║║║█████║║║║║║║║██
+─────██║║║║║║║║███║║║║║║║║██
+──────██║║║║║║║║║║║║║║║║║██
+───────██║║║║║║║║║║║║║║║██
+────────██║║║║║║║║║║║║║██
+─────────██║║║║║║║║║║║██
+──────────██║║║║║║║║║██
+───────────██║║║║║║║██
+────────────██║║║║║██
+─────────────██║║║██
+──────────────██║██
+───────────────███
+───────────────────────▄██▄▄██▄
+──────────────────────██████████
+──────────────────────▀████████▀
+────────────────────────▀████▀
+─────────────────────────████
+─────────────────────────████
+─────────────────────────████
+─────────────────────────████
+─────────────────────────████
+─────────────────────────████
+─────────────────────────████
+─────────────────────────████
+──────────────────────▄▄▄████
+──────────────────────▀▀▀████
+──────────────────────▀▀▀████
+──────────────────────▀▀▀████
+──────────────────────▄█████▀
+
 date: 2019-09-22 00:00:00 Z
 layout: post
 author: jessa
@@ -8,11 +65,11 @@ author: jessa
 <html>
 <body>
 	<a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/YouWakeUpInARoom"><strong>antichamber</strong></a><br>
-    <img src="/images/antichamber.png" alt="antichamber" width="100">
+    <img src="/images/antichamber.png" alt="antichamber" width="450">
     <br>
     <br>
     <a href="https://porpentine.itch.io/orifice"><strong>eczema angel orifice</strong></a><br>
-    <img src="/images/eczema.jpg" alt="ezcema" width="150">
+    <img src="/images/eczema.jpg" alt="ezcema" width="300">
     <br>
     <br>
     <a href="https://www.sweetyhigh.com/read/signs-youre-obsessed-zelda-breath-of-the-wild-051917"><strong>legend of zelda: breath of the wild</strong></a> <br>
@@ -20,11 +77,11 @@ author: jessa
     <br>
     <br>
     <strong>journey</strong><br>
-    <img src="/images/journey.jpg" alt="journey" width="100">
+    <img src="/images/journey.jpg" alt="journey" width="200">
     <br>
     <br>
     <strong>minecraft</strong><br>
-    <img src="/images/minecraft.jpg" alt="minecraft" width="130">
+    <img src="/images/minecraft.jpg" alt="minecraft" width="300">
     <br>
     <br>
     <a href="https://www.reddit.com/r/prisonarchitect/"><strong>prison architect</strong></a> <br>
@@ -32,7 +89,7 @@ author: jessa
     <br>
     <br>
     <a href="https://www.youtube.com/watch?v=th9vbhaAxCo"><strong>oikospiel</strong></a><br>
-    <img src="/images/oiko.png" alt="oiko" width="120">
+    <img src="/images/oiko.png" alt="oiko" width="650">
     <br>
     <br>
     <a href="https://www.fisicx.com/riven/walkthrough.htm"><strong>riven: the sequel to myst</strong></a><br>
@@ -44,7 +101,7 @@ author: jessa
     <br>
     <br>
     <strong>tomb raider</strong><br>
-    <img src="/images/tombraider.png" alt="tombraider" width="100">
+    <img src="/images/tombraider.png" alt="tombraider" width="200">
 
 </body>
 </html>
