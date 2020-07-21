@@ -7,8 +7,8 @@ author: jessa
 
 <body>
 	<p>
-<h3 style="background:white; border:1.5px dotted#000000; padding: 5px 5px;"> <a href="/blogpost1.html"><strong>blog post 1 abt important thoughts & feelings</strong></a> </h3>
+<h3 style="background:white; border:1.5px dotted#000000; padding: 5px 5px; text-align: center; text-decoration: none; display: inline-block;"> <a href="/blogpost1.html"><strong>blog post 1 abt important thoughts & feelings</strong></a> </h3>
 <br><br><br>
-<h3 style="background:white; border:1.5px dotted#000000; padding: 5px 5px; margin-left: 30px;"> <a href="/blogpost2.html"><strong>blog!post!2!</strong></a> </h3>
+<h3 style="background:white; border:1.5px dotted#000000; padding: 5px 5px; margin-left: 30px; text-align: center; text-decoration: none; display: inline-block;"> <a href="/blogpost2.html"><strong>blog!post!2!</strong></a> </h3>
 </p>
 </body>
