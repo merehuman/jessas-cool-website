@@ -6,7 +6,7 @@ author: jessa gillespie
 ---
 
 <body>
-<p>
+<p style="background:white; border:1.5px dotted#000000; float: center">
 <h3 > <strong>welcome to jessa gillespie's platform</strong> </h3>
 
 jessa is an artist, writer, and technologist living in queens, new york.
@@ -15,8 +15,11 @@ they love <a href="https://www.reddit.com/r/TombRaider/comments/d6pxi1/my_tomb_r
 <br>
 <br>
 jessa is very good at cinema4d & unity, and is pretty good at unreal, faceware, daz, iclone, ableton live, zbrush, blender, photoshop, after effects, premiere, and indesign. they also are familiar with html, c#, and javascript. <br>
-pls feel free to contact them below with any questions, concerns, or paid labor.</p>
-<form method="post" name="contact_form"
+pls feel free to contact them below with any questions, concerns, or paid labor.
+<br><br>
+you may contact them via email @ jessagillespie@gmail.com or @mere.human :)
+</p>
+<!-- <form method="post" name="contact_form"
 action="contact-form-handler.php">
 <br>
     Your Name:
@@ -28,9 +31,35 @@ action="contact-form-handler.php">
     <input type="submit" value="Submit">
 </form>
 <P>
-	<!-- <br> -->
 	this email submit form doesn't work yet so just email them at jessagillespie@gmail.com until they learn html
-</P>
+</P> -->
+<br><br><br>
+
+<p>
+<h3 > <strong>a selected overview</strong> </h3>
+2019-present <br>
+<i>graphics & interactive programming</i> for <a href= "https://www.stephaniedinkins.com/ntoo.html">stephanie dinkins</a>
+	<br>
+	<br>
+2019-present<br>
+<i>virtual reality development</i> for <a href="https://unmpress.com/books/cave-city-and-eagles-nest/9780826342836">mapa de cuauhtinchan project</a> in collaboration with davíd carrasco, laana carrasco, and stewart bird  
+	<br>
+	<br>
+2018-present<br>
+<i>graphic design</i> for bar laika by e-flux
+	<br>
+	<br>
+2017-present<br>
+<i>virtual reality development</i> for <a href="https://www.bradnecyk.com/">brad necyk</a>
+	<br>
+	<br>
+2017-2019<br>
+<i>game development</i> on <a href="http://www.audiogameslab.ca/">the lost garden</a> with scott smallwood and nico arnaez
+	<br>
+	<br>
+	<br>
+<b>jessa</b> previously was in school for fine arts (bfa, honors in art history), in canada from 2013-2017 & you can email them for an extensive cv if you wish.
+</p>
 </body>
 
 
