@@ -16,7 +16,7 @@ author: jessa
     <br>
     <br>
     <a href="https://www.sweetyhigh.com/read/signs-youre-obsessed-zelda-breath-of-the-wild-051917"><strong>legend of zelda: breath of the wild</strong></a> <br>
-    <img src="/images/zelda.png" alt="zelda" width="250">
+    <img src="/images/zelda.png" alt="zelda" width="800">
     <br>
     <br>
     <strong>journey</strong><br>
