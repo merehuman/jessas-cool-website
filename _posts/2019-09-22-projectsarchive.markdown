@@ -1,0 +1,14 @@
+---
+title: projects archive
+date: 2019-09-22 00:00:00 Z
+layout: post
+author: jessa
+---
+
+<body>
+	<p>
+<h3 style="background:white; border:1.5px dotted#000000; padding: 5px 5px;"> <a href="/monster.html"><strong>when jessa was obsessed with monster</strong></a> </h3>
+<br><br><br>
+<h3 style="background:white; border:1.5px dotted#000000; padding: 5px 5px; margin-left: 20px;"> <a href="/lostgarden.html"><strong>the lost garden</strong></a> </h3>
+</p>
+</body>
