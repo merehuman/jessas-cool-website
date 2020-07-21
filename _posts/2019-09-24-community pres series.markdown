@@ -1,8 +1,6 @@
 ---
 title: community presentation series archive
 date: 2019-09-24 00:00:00 Z
-categories:
-- jessas-cool-website
 layout: post
 author: jessa
 ---
