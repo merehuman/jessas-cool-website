@@ -7,7 +7,7 @@ author: jessa gillespie
 
 <body>
 <p>
-<h3 style="background:white; border:1.5px dotted#000000; text-align: center; text-decoration: none; display: inline-block;"> <strong>welcome to jessa gillespie's platform</strong> </h3>
+<h3 style="background:white; border:1.5px dotted#000000; text-align: center; text-decoration: none; display: inline-block; padding: 5px 5px;"> <strong>welcome to jessa gillespie's platform</strong> </h3>
 </p>
 <p>
 jessa is an artist, writer, and technologist living in queens, new york.
@@ -37,7 +37,7 @@ action="contact-form-handler.php">
 <br>
 
 <p>
-<h3 > <strong>a selected overview</strong> </h3>
+<h3 style="background:white; border:1.5px dotted#000000; text-align: center; text-decoration: none; display: inline-block; padding: 5px 5px;"> <strong>a selected overview</strong> </h3>
 2019-present <br>
 <i>graphics & interactive programming</i> for <a href= "https://www.stephaniedinkins.com/ntoo.html">stephanie dinkins</a>
 	<br>
