@@ -6,8 +6,8 @@ author: jessa gillespie
 ---
 
 <body>
-<p style="background:white; border:1.5px dotted#000000; float: center">
-<h3 > <strong>welcome to jessa gillespie's platform</strong> </h3>
+<p>
+<h3 style="background:white; border:1.5px dotted#000000; float: center;"> <strong>welcome to jessa gillespie's platform</strong> </h3>
 
 jessa is an artist, writer, and technologist living in queens, new york.
 their work primarily takes the form of video games, virtual reality, and animation.
@@ -33,7 +33,7 @@ action="contact-form-handler.php">
 <P>
 	this email submit form doesn't work yet so just email them at jessagillespie@gmail.com until they learn html
 </P> -->
-<br><br><br>
+<br>
 
 <p>
 <h3 > <strong>a selected overview</strong> </h3>
