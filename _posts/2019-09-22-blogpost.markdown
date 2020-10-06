@@ -7,12 +7,17 @@ author: jessa
 
 <body>
 	<p>
+<h3 style="background:white; border:1.5px ; padding: 5px 5px; margin-left: 30px; text-align: center; text-decoration: none; display: inline-block; "> <a href="/blogpost2.html"><strong>blog!post!2!.12/8</strong></a> </h3>
+
+<br><br>
+
 <h3 style="background:white; border:1.5px ; padding: 5px 5px; text-align: center; text-decoration: none; display: inline-block;"> <a href="/blogpost1.html"><strong>blog post 1 abt important thoughts & feelings.10/20</strong></a> 
 </h3>
+
 <br><br>
+
 <h3 style="background:white; border:1.5px ; padding: 5px 5px; margin-left: 50px; text-align: center; text-decoration: none; display: inline-block;"> <a href="/games.html"><strong>games jessa loves</strong></a> 
 </h3>
-<br>
-<h3 style="background:white; border:1.5px ; padding: 5px 5px; margin-left: 30px; text-align: center; text-decoration: none; display: inline-block; "> <a href="/blogpost2.html"><strong>blog!post!2!.12/8</strong></a> </h3>
+
 </p>
 </body>
