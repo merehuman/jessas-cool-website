@@ -8,6 +8,8 @@ author: jessa
 <body>
 	<p>
 		some selected projects♪( ´θ｀) <br>
+<h3 style="background:white; border:1.5px ; padding: 5px 5px; margin-left: 100px; text-align: center; text-decoration: none; display: inline-block;"> <a href="/myheartdevlog.html"><strong>my heart moves faster than my brain.2020</strong></a> </h3>
+<br>
 <h3 style="background:white; border:1.5px ; padding: 5px 5px; margin-left: 100px; text-align: center; text-decoration: none; display: inline-block;"> <a href="https://merehuman.github.io/presentationseries/index.html"><strong>community presentation series.2020</strong></a> </h3>
 <br>
 <h3 style="background:white; border:1.5px ; padding: 5px 5px; margin-left: 100px; text-align: center; text-decoration: none; display: inline-block;"> <a href="/queergaming.html"><strong>queer gaming group.2020</strong></a> </h3>
