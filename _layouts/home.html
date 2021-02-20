@@ -149,11 +149,11 @@
 
       var node = vis.selectAll("g.node").data(force.nodes()).enter().append("svg:g").attr("class", "node");
       node.append("rect")  
-        .attr("x", 25)
-        .attr("y", -25)
+        .attr("x", 0)
+        .attr("y", 0)
         .attr("height", 50)
         .attr("width", 50)
-        .style("fill", "black");;
+        .style("fill", "transparent");;
       node.call(force.drag);
 
 
@@ -173,10 +173,10 @@
           return i % 2 == 0 ? "" : d.node.url
         })
         .append("rect")  
-        .attr("x", 0)
-        .attr("y", 0)
+        .attr("x", 90)
+        .attr("y", 40)
         .attr("height", 40)
-        .attr("width", 100)
+        .attr("width", 200)
         .style("fill", "black");
       anchorNode.append("svg:text").text(function(d, i) {
         return i % 2 == 0 ? "" : d.node.label
