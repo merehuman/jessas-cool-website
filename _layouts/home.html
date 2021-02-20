@@ -173,10 +173,10 @@
           return i % 2 == 0 ? "" : d.node.url
         })
         .append("rect")  
-        .attr("x", 90)
-        .attr("y", 40)
+        .attr("x", 150)
+        .attr("y", -40)
         .attr("height", 40)
-        .attr("width", 200)
+        .attr("width", 300)
         .style("fill", "black");
       anchorNode.append("svg:text").text(function(d, i) {
         return i % 2 == 0 ? "" : d.node.label
