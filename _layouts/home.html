@@ -209,9 +209,11 @@
           console.log(d.node.categories);
           return i % 2 == 0 ? "" : d.node.url
         })
-        .append("svg:ellipse").attr("rx", 20).attr("ry", 20).style("fill", "black"); 
-        .attr("x", 50)
-        .attr("y", -50)
+        .append("svg:ellipse")
+        .attr("rx", 20)
+        .attr("ry", 20)
+        // .attr("x", 50)
+        // .attr("y", -50)
         .attr("height", 30)
         .attr("width", 30)
         .style("fill", "black");
