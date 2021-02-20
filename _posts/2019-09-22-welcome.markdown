@@ -26,14 +26,14 @@ special skills include motion capture, character animation, 3d modeling
 & texturing :)<br>
 pls feel free to contact them below with any questions, concerns, or paid labor. 
 <br><br>
-you may contact them via email via jessagillespie@gmail.com or @mere.human :)
+you may get in touch with them via email via jessagillespie@gmail.com or @mere.human :)
 </p>
 
 <p>
 <h3 style="background:white; border:1.5px dotted#000000; text-align: center; text-decoration: none; display: inline-block; padding: 5px 5px;"> <strong>a selected overview</strong> </h3>
 <br>
 2019-present <br>
-<i>graphics & interactive programming</i> for <a href= "https://www.stephaniedinkins.com/ntoo.html">stephanie dinkins</a>
+<i>3d graphics & interactive programming</i> for <a href= "https://www.stephaniedinkins.com/ntoo.html">stephanie dinkins studio</a>
 	<br>
 	<br>
 2019-present<br>
@@ -49,7 +49,7 @@ you may contact them via email via jessagillespie@gmail.com or @mere.human :)
 	<br>
 	<br>
 2017-2019<br>
-<i>game development</i> on <a href="http://www.audiogameslab.ca/">the lost garden</a> with scott smallwood and nico arnaez
+<i>game development & 3d graphics</i> on <a href="http://www.audiogameslab.ca/">the lost garden</a> with scott smallwood and nico arnaez
 	<br>
 	<br>
 	<br>
