@@ -7,7 +7,7 @@ author: jessa gillespie
 
 <body>
 <p>
-<h3 style="background:white; border:1.5px dotted#000000; text-align: center; text-decoration: none; display: inline-block; padding: 5px 5px;"> <strong>welcome to jessa gillespie's platform</strong> </h3>
+<h3 style="background:white; border:1.5px dotted#000000; text-align: center; text-decoration: none; display: inline-block; padding: 5px 5px;"> <strong>welcome to jessa gillespie's archive</strong> </h3>
 </p>
 <p>
 jessa is an artist, writer, and technologist living in <a href="https://native-land.ca/">amiskwaciwâskahikan</a> on treaty 6 territory.
