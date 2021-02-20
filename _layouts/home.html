@@ -208,7 +208,7 @@
           console.log(d.node.categories);
           return i % 2 == 0 ? "" : d.node.url
         })
-        .append("ellipse")  
+        .append("svg:ellipse").attr("rx", 20).attr("ry", 20).style("fill", "black"); 
         .attr("x", 50)
         .attr("y", -50)
         .attr("height", 30)
