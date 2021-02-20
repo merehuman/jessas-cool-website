@@ -149,9 +149,9 @@
 
       var node = vis.selectAll("g.node").data(force.nodes()).enter().append("svg:g").attr("class", "node");
       node.append("rect")  
-        .attr("x", 0)
-        .attr("y", 0)
-        .attr("height", 30)
+        .attr("x", 25)
+        .attr("y", -25)
+        .attr("height", 50)
         .attr("width", 50)
         .style("fill", "black");;
       node.call(force.drag);
@@ -174,10 +174,10 @@
         })
         .append("rect")  
         .attr("x", 0)
-        .attr("y", -20)
-        .attr("height", 35)
-        .attr("width", 90)
-        .style("fill", "transparent");
+        .attr("y", 0)
+        .attr("height", 40)
+        .attr("width", 100)
+        .style("fill", "black");
       anchorNode.append("svg:text").text(function(d, i) {
         return i % 2 == 0 ? "" : d.node.label
       }).style("fill", "black").style("font-family", "Roboto Mono").style("font-size", fontSize);
