@@ -69,12 +69,37 @@
 }
 </style>
 
+<style>.split {
+  height: 10%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+</style>
+
+<style>.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
 
 
+<!-- 
+<button class="homebutton"><a href="/myheartdevlog.html"></button> -->
 
-
-
-
+<div class="split">
+  <div class="centered">
+    <!-- <img src="img_avatar2.png" alt="Avatar woman"> -->
+    <h2>welcome to jessa gillespie's archive :)</h2>
+    <!-- <p>Some text.</p> -->
+  </div>
+</div>
 
 <ul class="posts-hidden">
   {% for post in site.posts %}
@@ -92,9 +117,6 @@
   {% endfor %}
 </ul>
   <br>
-
-<!-- 
-<button class="homebutton"><a href="/myheartdevlog.html"></button> -->
 
 <script type="text/javascript" charset="utf-8">
       var w = window.innerWidth, h = window.innerHeight;
@@ -189,8 +211,8 @@
           return i % 2 == 0 ? "" : d.node.url
         })
         .append("rect")  
-        .attr("x", 0)
-        .attr("y", 0)
+        .attr("x", -50)
+        .attr("y", 50)
         .attr("height", 50)
         .attr("width", 50)
         .style("fill", "black");
