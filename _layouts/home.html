@@ -31,6 +31,11 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
+
+
+
+
+
 <style>
   body { background-image: url("/images/websitebackground.png"); 
         background-repeat:no-repeat;
@@ -63,6 +68,13 @@
   background-image: url('/images/icon.png');
 }
 </style>
+
+
+
+
+
+
+
 
 <ul class="posts-hidden">
   {% for post in site.posts %}
@@ -177,10 +189,10 @@
           return i % 2 == 0 ? "" : d.node.url
         })
         .append("rect")  
-        .attr("x", 50)
-        .attr("y", -40)
+        .attr("x", 0)
+        .attr("y", 0)
         .attr("height", 50)
-        .attr("width", 300)
+        .attr("width", 50)
         .style("fill", "black");
       anchorNode.append("svg:text").text(function(d, i) {
         return i % 2 == 0 ? "" : d.node.label
