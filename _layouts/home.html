@@ -150,10 +150,10 @@
       var node = vis.selectAll("g.node").data(force.nodes()).enter().append("svg:g").attr("class", "node");
       node.append("rect")  
         .attr("x", 0)
-        .attr("y", -15)
+        .attr("y", 0)
         .attr("height", 30)
-        .attr("width", 30)
-        .style("fill", "transparent");;
+        .attr("width", 50)
+        .style("fill", "black");;
       node.call(force.drag);
 
 
