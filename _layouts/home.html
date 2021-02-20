@@ -86,6 +86,11 @@
 }
 </style>
 
+<style>.h1 {
+  font-size: 30;
+  font: black;
+}
+</style>
 <!-- end css! -->
 
 <!-- 
@@ -207,14 +212,12 @@
           console.log(d.node.categories);
           return i % 2 == 0 ? "" : d.node.url
         })
-        .append("svg:ellipse")
-        .attr("rx", 10)
-        .attr("ry", 10)
-        // .attr("x", 50)
-        // .attr("y", -50)
+        .append("rect")
+        .attr("x", 300)
+        .attr("y", 10)
         .attr("height", 0)
         .attr("width", 0)
-        .style("fill", "white");
+        .style("fill", "transparent");
         anchorNode.append("svg:text").text(function(d, i) {
         return i % 2 == 0 ? "" : d.node.label
       }).style("fill", "black")
