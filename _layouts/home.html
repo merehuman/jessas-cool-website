@@ -89,6 +89,7 @@
 <style>.h1 {
   font-size: 30;
   font: black;
+  text-decoration: none;
 }
 </style>
 <!-- end css! -->
@@ -213,10 +214,10 @@
           return i % 2 == 0 ? "" : d.node.url
         })
         .append("rect")
-        .attr("x", 300)
-        .attr("y", 10)
-        .attr("height", 0)
-        .attr("width", 0)
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("height", 10)
+        .attr("width", 300)
         .style("fill", "transparent");
         anchorNode.append("svg:text").text(function(d, i) {
         return i % 2 == 0 ? "" : d.node.label
