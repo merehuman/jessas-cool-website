@@ -214,18 +214,17 @@
           return i % 2 == 0 ? "" : d.node.url
         })
         .append("rect")
-        .attr("x", 0)
+        .attr("x", 20)
         .attr("y", -20)
         .attr("height", 20)
         .attr("width", 300)
-        .style("fill", "grey");
+        .style("fill", "transparent");
         anchorNode.append("svg:text").text(function(d, i) {
         return i % 2 == 0 ? "" : d.node.label
       }).style("fill", "black")
         .style("font-family", "Roboto Mono")
         .style("font-size", fontSize);
-        .attr("x", 0)
-        .attr("y", -20)
+
         
 
       var updateLink = function() {
