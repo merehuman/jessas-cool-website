@@ -98,12 +98,12 @@
 
 
 
-<!-- <div class="split">
-  <div class="centered">
-    <img src="img_avatar2.png" alt="Avatar woman">
-    <p>welcome to jessa gillespie's archive :)</p>
+<div class="split">
+  <div class="centered" style="background:transparent; border:1.5px; padding: 5px 5px; /*margin-left: 20px;*/ text-align: center; text-decoration: underline; display: inline-block;">
+    <img src="/images/icon.png" alt="icon">
+    welcome to jessa gillespie's archive :)
   </div>
-</div> -->
+</div>
 
 <ul class="posts-hidden">
   {% for post in site.posts %}
@@ -215,11 +215,11 @@
           return i % 2 == 0 ? "" : d.node.url
         })
         .append("rect")
-        .attr("x", 20)
-        .attr("y", -20)
-        .attr("height", 20)
-        .attr("width", 300)
-        .style("fill", "transparent");
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("height", 10)
+        .attr("width", 10)
+        .style("fill", "#EDFE00");
         anchorNode.append("svg:text").text(function(d, i) {
         return i % 2 == 0 ? "" : d.node.label
       }).style("fill", "black")

@@ -1,5 +1,5 @@
 ---
-title: <a href="/2019-09-22-blogpost.markdown">blog posts!</a>
+title: blog posts!
 date: 2019-09-22 00:00:00 Z
 layout: post
 author: jessa
