@@ -1,0 +1,65 @@
+---
+title: "❤welcome❤"
+date: 2018-05-03 12:34:27 +0100
+layout: post
+author: jessa gillespie
+---
+
+<body>
+<p>
+<h3 style="background:white; border:1.5px dotted#000000; text-align: center; text-decoration: none; display: inline-block; padding: 5px 5px;"> <strong>welcome to jessa gillespie's archive</strong> </h3>
+<br>
+jessa is an artist, writer, and technologist living in <a href="https://native-land.ca/">amiskwaciwâskahikan</a> on treaty 6 territory.
+their work primarily takes the form of video games, virtual reality, and animation.
+<!-- they love <a href="https://www.reddit.com/r/TombRaider/comments/d6pxi1/my_tomb_raider_collection/">tomb raider</a>, would prefer voluntary association, & <a href="https://thenewinquiry.com/carceral-capitalism/">hates cops</a>. -->
+<br>
+<br>
+jessa is very good at:<br>
+cinema4d, zbrush, unity, daz, faceware, photoshop, premiere, after effects & indesign.<br>
+and is pretty good at:<br>
+unreal engine, maya & marvelous designer.<br>
+they also put into use:<br>
+html/css, c# & javascript. <br><br>
+
+special skills include web design, motion capture, character animation, 3d modeling 
+& texturing.<br><br>
+pls feel free to contact them with any questions, concerns, or paid labor. 
+<br>
+you may get in touch with them via email: jessagillespie@gmail.com :)
+</p>
+
+<p>
+<h3 style="background:white; border:1.5px dotted#000000; text-align: center; text-decoration: none; display: inline-block; padding: 5px 5px;"> <strong>a selected overview</strong> </h3>
+<br>
+2021-present<br>
+<i>website design/graphic design</i> for the intersections of gender department at the university of alberta
+	<br>
+	<br>
+2019-present <br>
+<i>3d graphics & interactive programming</i> for <a href= "https://www.stephaniedinkins.com/ntoo.html">stephanie dinkins studio</a>
+	<br>
+	<br>
+2018-present<br>
+<i>graphic design</i> for bar laika by e-flux
+	<br>
+	<br>
+2019<br>
+<i>virtual reality development</i> for <a href="https://unmpress.com/books/cave-city-and-eagles-nest/9780826342836">mapa de cuauhtinchan project</a> in collaboration with davíd carrasco, laana carrasco, and stewart bird  
+	<br>
+	<br>
+2017-2019<br>
+<i>virtual reality development</i> for <a href="https://www.bradnecyk.com/">brad necyk</a>
+	<br>
+	<br>
+2017-2019<br>
+<i>game development & 3d graphics</i> on <a href="http://www.audiogameslab.ca/">the lost garden</a> with scott smallwood and nico arnaez
+	<br>
+	<br>
+	<br>
+<b>jessa</b> previously was in school for fine arts (bfa, honors in art history), in canada from 2013-2017 & you can email them for an extensive cv if you wish.
+</p>
+</body>
+
+
+
+
