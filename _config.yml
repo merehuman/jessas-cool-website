@@ -19,4 +19,4 @@ plugins:
 - jekyll-feed
 future: true
 encoding: UTF-8
-path: "_posts/blog"
+path: _posts/blog
