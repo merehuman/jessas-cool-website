@@ -17,3 +17,4 @@ markdown: kramdown
 theme: minima
 plugins:
 - jekyll-feed
+future: true
