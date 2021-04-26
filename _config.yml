@@ -19,4 +19,5 @@ plugins:
 - jekyll-feed
 future: true
 encoding: UTF-8
+exclude: ["Gemfile.lock", "node_modules"]
 
